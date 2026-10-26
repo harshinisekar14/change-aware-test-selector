@@ -1,0 +1,23 @@
+test_conflicting_sequence_preserves_first_pending (test_durable_events.DurableEventTests.test_conflicting_sequence_preserves_first_pending) ... ok
+test_duplicate_after_restart_is_not_reapplied (test_durable_events.DurableEventTests.test_duplicate_after_restart_is_not_reapplied) ... ok
+test_invalid_event_audited (test_durable_events.DurableEventTests.test_invalid_event_audited) ... ok
+test_restart_recovers_committed_and_pending (test_durable_events.DurableEventTests.test_restart_recovers_committed_and_pending) ... ok
+test_duplicate_event_id_not_applied_twice (test_events.EventTests.test_duplicate_event_id_not_applied_twice) ... ok
+test_invalid_envelope_rejected (test_events.EventTests.test_invalid_envelope_rejected) ... ok
+test_out_of_order_events_buffer_then_drain (test_events.EventTests.test_out_of_order_events_buffer_then_drain) ... ok
+test_sequence_conflict_does_not_overwrite_pending (test_events.EventTests.test_sequence_conflict_does_not_overwrite_pending) ... ok
+test_stale_event_ignored (test_events.EventTests.test_stale_event_ignored) ... ok
+test_changed_file_direct_test_selected (test_selector.SelectorTests.test_changed_file_direct_test_selected) ... ok
+test_coverage_only_is_subset_for_sample_diff (test_selector.SelectorTests.test_coverage_only_is_subset_for_sample_diff) ... ok
+test_coverage_only_unknown_file_falls_back_to_full_suite (test_selector.SelectorTests.test_coverage_only_unknown_file_falls_back_to_full_suite) ... ok
+test_critical_defect_associated_test_retained (test_selector.SelectorTests.test_critical_defect_associated_test_retained) ... ok
+test_dependency_cycle_terminates (test_selector.SelectorTests.test_dependency_cycle_terminates) ... ok
+test_dependency_neighborhood (test_selector.SelectorTests.test_dependency_neighborhood) ... ok
+test_empty_diff_falls_back_to_full_suite (test_selector.SelectorTests.test_empty_diff_falls_back_to_full_suite) ... ok
+test_experiment_is_reproducible_and_has_three_approaches (test_selector.SelectorTests.test_experiment_is_reproducible_and_has_three_approaches) ... ok
+test_unknown_changed_file_falls_back_to_full_suite (test_selector.SelectorTests.test_unknown_changed_file_falls_back_to_full_suite) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.035s
+
+OK

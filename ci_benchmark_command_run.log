@@ -1,0 +1,105 @@
+{
+  "measurement_type": "wall-clock command measurements",
+  "repeats": 5,
+  "machine_and_environment": "Record CI runner image, hardware class, cache state, and commit in accompanying notes.",
+  "critical_defect_recall": "NOT measured by this timing harness; calculate from labelled defect/test cases separately.",
+  "results": {
+    "full_regression": {
+      "command": [
+        "python",
+        "-m",
+        "selector.demo_ci_runner",
+        "--strategy",
+        "full_regression",
+        "--diff",
+        "data/sample_diff.json",
+        "--data",
+        "data",
+        "--runtime-scale",
+        "0.003"
+      ],
+      "runs_seconds": [
+        1.247,
+        1.163,
+        1.031,
+        0.999,
+        1.106
+      ],
+      "median_seconds": 1.106,
+      "return_codes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "time_saved_seconds_vs_full": 0.0,
+      "time_saved_percent_vs_full": 0.0
+    },
+    "coverage_only": {
+      "command": [
+        "python",
+        "-m",
+        "selector.demo_ci_runner",
+        "--strategy",
+        "coverage_only",
+        "--diff",
+        "data/sample_diff.json",
+        "--data",
+        "data",
+        "--runtime-scale",
+        "0.003"
+      ],
+      "runs_seconds": [
+        0.834,
+        0.847,
+        0.891,
+        1.068,
+        1.194
+      ],
+      "median_seconds": 0.891,
+      "return_codes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "time_saved_seconds_vs_full": 0.215,
+      "time_saved_percent_vs_full": 19.44
+    },
+    "hybrid_selector": {
+      "command": [
+        "python",
+        "-m",
+        "selector.demo_ci_runner",
+        "--strategy",
+        "hybrid_selector",
+        "--diff",
+        "data/sample_diff.json",
+        "--data",
+        "data",
+        "--runtime-scale",
+        "0.003"
+      ],
+      "runs_seconds": [
+        1.09,
+        1.08,
+        1.227,
+        1.239,
+        1.073
+      ],
+      "median_seconds": 1.09,
+      "return_codes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "time_saved_seconds_vs_full": 0.016,
+      "time_saved_percent_vs_full": 1.45
+    }
+  }
+}
+Saved results/ci_benchmark_command_run.json

@@ -1,0 +1,11 @@
+check_id,environment,date,commit_or_config_version,expected_result,actual_result,pass_fail,evidence_path_or_url,reviewer_role,notes
+AUTH-01,staging,,,,,,,,
+PERSIST-01,staging,,,,,,,,
+RESTART-01,staging,,,,,,,,
+EVENT-01,staging,,,,,,,,
+BACKUP-01,staging,,,,,,,,
+CONCURRENCY-01,staging,,,,,,,,
+FALLBACK-01,staging,,,,,,,,
+MONITORING-01,staging,,,,,,,,
+ROLLBACK-01,staging,,,,,,,,
+SIGNOFF-01,staging,,,,,,,,

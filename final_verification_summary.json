@@ -1,0 +1,29 @@
+{
+  "unit_tests": "18 passed, 0 failed",
+  "local_benchmark_design": "5 scenarios x 3 strategies x 5 repeats",
+  "local_benchmark": {
+    "full_regression": {
+      "mean_median_wall_clock_seconds": 0.352479,
+      "mean_time_saved_percent": 0.0,
+      "mean_critical_defect_recall": 1.0,
+      "all_selected_tests_passed": true
+    },
+    "coverage_only": {
+      "mean_median_wall_clock_seconds": 0.09536,
+      "mean_time_saved_percent": 72.94,
+      "mean_critical_defect_recall": 1.0,
+      "all_selected_tests_passed": true
+    },
+    "hybrid_selector": {
+      "mean_median_wall_clock_seconds": 0.138829,
+      "mean_time_saved_percent": 60.62,
+      "mean_critical_defect_recall": 1.0,
+      "all_selected_tests_passed": true
+    }
+  },
+  "local_staging_checks": "9/9 passed",
+  "distinct_command_benchmark": "results/ci_benchmark_command_run.json",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "source_files_hashed": 14
+}

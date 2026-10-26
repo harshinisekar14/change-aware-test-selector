@@ -1,0 +1,323 @@
+{
+  "experiment_type": "deterministic synthetic fixture experiment",
+  "runtime_seconds_are": "estimated fixture durations, not live CI measurements",
+  "cases": [
+    {
+      "case_id": "E1",
+      "description": "Flash-sale inventory logic changed",
+      "changed_files": [
+        "flash_sale.py",
+        "inventory.py"
+      ],
+      "critical_defects_in_scope": [
+        "D-103"
+      ],
+      "full_regression": {
+        "approach": "full_regression",
+        "selected_tests": [
+          "T01_cart_total",
+          "T02_payment_authorization",
+          "T03_flash_inventory",
+          "T04_coupon_rules",
+          "T05_order_webhook",
+          "T06_search_catalog",
+          "T07_user_login",
+          "T08_checkout_e2e"
+        ],
+        "selected_count": 8,
+        "estimated_seconds": 117.0,
+        "time_saved_seconds": 0.0,
+        "time_saved_percent": 0.0,
+        "critical_defects_detected": [
+          "D-103"
+        ],
+        "critical_detection_recall": 1.0
+      },
+      "coverage_only": {
+        "approach": "coverage_only",
+        "selected_tests": [
+          "T03_flash_inventory",
+          "T08_checkout_e2e"
+        ],
+        "selected_count": 2,
+        "estimated_seconds": 43.0,
+        "time_saved_seconds": 74.0,
+        "time_saved_percent": 63.25,
+        "critical_defects_detected": [
+          "D-103"
+        ],
+        "critical_detection_recall": 1.0
+      },
+      "hybrid_selector": {
+        "approach": "hybrid_selector",
+        "selected_tests": [
+          "T08_checkout_e2e",
+          "T03_flash_inventory"
+        ],
+        "selected_count": 2,
+        "estimated_seconds": 43.0,
+        "time_saved_seconds": 74.0,
+        "time_saved_percent": 63.25,
+        "critical_defects_detected": [
+          "D-103"
+        ],
+        "critical_detection_recall": 1.0
+      }
+    },
+    {
+      "case_id": "E2",
+      "description": "Checkout and payment logic changed",
+      "changed_files": [
+        "checkout.py",
+        "payment.py"
+      ],
+      "critical_defects_in_scope": [
+        "D-102"
+      ],
+      "full_regression": {
+        "approach": "full_regression",
+        "selected_tests": [
+          "T01_cart_total",
+          "T02_payment_authorization",
+          "T03_flash_inventory",
+          "T04_coupon_rules",
+          "T05_order_webhook",
+          "T06_search_catalog",
+          "T07_user_login",
+          "T08_checkout_e2e"
+        ],
+        "selected_count": 8,
+        "estimated_seconds": 117.0,
+        "time_saved_seconds": 0.0,
+        "time_saved_percent": 0.0,
+        "critical_defects_detected": [
+          "D-102"
+        ],
+        "critical_detection_recall": 1.0
+      },
+      "coverage_only": {
+        "approach": "coverage_only",
+        "selected_tests": [
+          "T02_payment_authorization",
+          "T08_checkout_e2e"
+        ],
+        "selected_count": 2,
+        "estimated_seconds": 45.0,
+        "time_saved_seconds": 72.0,
+        "time_saved_percent": 61.54,
+        "critical_defects_detected": [
+          "D-102"
+        ],
+        "critical_detection_recall": 1.0
+      },
+      "hybrid_selector": {
+        "approach": "hybrid_selector",
+        "selected_tests": [
+          "T08_checkout_e2e",
+          "T02_payment_authorization",
+          "T01_cart_total",
+          "T04_coupon_rules"
+        ],
+        "selected_count": 4,
+        "estimated_seconds": 67.0,
+        "time_saved_seconds": 50.0,
+        "time_saved_percent": 42.74,
+        "critical_defects_detected": [
+          "D-102"
+        ],
+        "critical_detection_recall": 1.0
+      }
+    },
+    {
+      "case_id": "E3",
+      "description": "Pricing and coupon rules changed",
+      "changed_files": [
+        "pricing.py",
+        "coupon.py"
+      ],
+      "critical_defects_in_scope": [
+        "D-101"
+      ],
+      "full_regression": {
+        "approach": "full_regression",
+        "selected_tests": [
+          "T01_cart_total",
+          "T02_payment_authorization",
+          "T03_flash_inventory",
+          "T04_coupon_rules",
+          "T05_order_webhook",
+          "T06_search_catalog",
+          "T07_user_login",
+          "T08_checkout_e2e"
+        ],
+        "selected_count": 8,
+        "estimated_seconds": 117.0,
+        "time_saved_seconds": 0.0,
+        "time_saved_percent": 0.0,
+        "critical_defects_detected": [
+          "D-101"
+        ],
+        "critical_detection_recall": 1.0
+      },
+      "coverage_only": {
+        "approach": "coverage_only",
+        "selected_tests": [
+          "T01_cart_total",
+          "T04_coupon_rules"
+        ],
+        "selected_count": 2,
+        "estimated_seconds": 22.0,
+        "time_saved_seconds": 95.0,
+        "time_saved_percent": 81.2,
+        "critical_defects_detected": [
+          "D-101"
+        ],
+        "critical_detection_recall": 1.0
+      },
+      "hybrid_selector": {
+        "approach": "hybrid_selector",
+        "selected_tests": [
+          "T01_cart_total",
+          "T04_coupon_rules",
+          "T08_checkout_e2e"
+        ],
+        "selected_count": 3,
+        "estimated_seconds": 47.0,
+        "time_saved_seconds": 70.0,
+        "time_saved_percent": 59.83,
+        "critical_defects_detected": [
+          "D-101"
+        ],
+        "critical_detection_recall": 1.0
+      }
+    },
+    {
+      "case_id": "E4",
+      "description": "Order webhook processing changed",
+      "changed_files": [
+        "webhook.py",
+        "orders.py"
+      ],
+      "critical_defects_in_scope": [],
+      "full_regression": {
+        "approach": "full_regression",
+        "selected_tests": [
+          "T01_cart_total",
+          "T02_payment_authorization",
+          "T03_flash_inventory",
+          "T04_coupon_rules",
+          "T05_order_webhook",
+          "T06_search_catalog",
+          "T07_user_login",
+          "T08_checkout_e2e"
+        ],
+        "selected_count": 8,
+        "estimated_seconds": 117.0,
+        "time_saved_seconds": 0.0,
+        "time_saved_percent": 0.0,
+        "critical_defects_detected": [],
+        "critical_detection_recall": 1.0
+      },
+      "coverage_only": {
+        "approach": "coverage_only",
+        "selected_tests": [
+          "T05_order_webhook",
+          "T08_checkout_e2e"
+        ],
+        "selected_count": 2,
+        "estimated_seconds": 40.0,
+        "time_saved_seconds": 77.0,
+        "time_saved_percent": 65.81,
+        "critical_defects_detected": [],
+        "critical_detection_recall": 1.0
+      },
+      "hybrid_selector": {
+        "approach": "hybrid_selector",
+        "selected_tests": [
+          "T08_checkout_e2e",
+          "T05_order_webhook"
+        ],
+        "selected_count": 2,
+        "estimated_seconds": 40.0,
+        "time_saved_seconds": 77.0,
+        "time_saved_percent": 65.81,
+        "critical_defects_detected": [],
+        "critical_detection_recall": 1.0
+      }
+    },
+    {
+      "case_id": "E5",
+      "description": "Search catalogue display changed",
+      "changed_files": [
+        "search.py",
+        "catalog.py"
+      ],
+      "critical_defects_in_scope": [],
+      "full_regression": {
+        "approach": "full_regression",
+        "selected_tests": [
+          "T01_cart_total",
+          "T02_payment_authorization",
+          "T03_flash_inventory",
+          "T04_coupon_rules",
+          "T05_order_webhook",
+          "T06_search_catalog",
+          "T07_user_login",
+          "T08_checkout_e2e"
+        ],
+        "selected_count": 8,
+        "estimated_seconds": 117.0,
+        "time_saved_seconds": 0.0,
+        "time_saved_percent": 0.0,
+        "critical_defects_detected": [],
+        "critical_detection_recall": 1.0
+      },
+      "coverage_only": {
+        "approach": "coverage_only",
+        "selected_tests": [
+          "T06_search_catalog"
+        ],
+        "selected_count": 1,
+        "estimated_seconds": 8.0,
+        "time_saved_seconds": 109.0,
+        "time_saved_percent": 93.16,
+        "critical_defects_detected": [],
+        "critical_detection_recall": 1.0
+      },
+      "hybrid_selector": {
+        "approach": "hybrid_selector",
+        "selected_tests": [
+          "T06_search_catalog",
+          "T08_checkout_e2e"
+        ],
+        "selected_count": 2,
+        "estimated_seconds": 33.0,
+        "time_saved_seconds": 84.0,
+        "time_saved_percent": 71.79,
+        "critical_defects_detected": [],
+        "critical_detection_recall": 1.0
+      }
+    }
+  ],
+  "aggregate": {
+    "full_regression": {
+      "mean_selected_tests": 8.0,
+      "mean_estimated_seconds": 117.0,
+      "mean_time_saved_percent": 0.0,
+      "mean_critical_detection_recall": 1.0
+    },
+    "coverage_only": {
+      "mean_selected_tests": 1.8,
+      "mean_estimated_seconds": 31.6,
+      "mean_time_saved_percent": 72.99,
+      "mean_critical_detection_recall": 1.0
+    },
+    "hybrid_selector": {
+      "mean_selected_tests": 2.6,
+      "mean_estimated_seconds": 46.0,
+      "mean_time_saved_percent": 60.68,
+      "mean_critical_detection_recall": 1.0
+    }
+  },
+  "interpretation": "Use real CI data before production decisions; the fixture oracle is not proof of real-world detection."
+}

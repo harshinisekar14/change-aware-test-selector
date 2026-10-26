@@ -1,0 +1,14 @@
+requirement,status,evidence,notes
+Scenario definition,complete,reports/final_report.md,Flash-sale e-commerce regression selection
+Full regression baseline,complete,selector/selector.py;results/local_ci_validation.json,All tests selected
+At least two approaches,complete,selector/selector.py;results/experiment_results.json,Full regression coverage-only and hybrid
+Code diffs test histories coverage dependency and defect associations,complete as fixture inputs,data/,Synthetic fixtures provided and documented
+End-to-end prototype,complete,selector/cli.py;README.md,CLI recommendation experiment and event commands
+Edge/failure cases,complete,tests/;results/local_staging_validation.json,18 unit tests and 9 staging-style checks
+Delayed duplicated and out-of-order event recovery,complete,selector/events.py;selector/durable_events.py;tests/,In-memory and SQLite-backed processing
+Measured performance experiment,complete for local synthetic suite,results/local_ci_validation.json,Measured wall-clock assertions with runtime scaling; not company CI
+Critical defect detection,complete against fixture oracle,results/local_ci_validation.json,100% recall in included synthetic defect oracle only
+Usability walkthrough,complete as assistant heuristic review,reports/assistant_heuristic_usability_review.md,Not human interview; limitations explicit
+Ethics note and deployment checklist,complete,reports/final_report.md,Data handling fallback monitoring and rollback covered
+Local staging-style validation,complete,results/local_staging_validation.json,9 of 9 local checks passed; not external production deployment
+External company CI and production certification,outside self-contained prototype scope,reports/final_audit/FINAL_AUDIT_AND_COMPLETION_PERCENTAGE.md,No company repository or target environment was provided; no false claims made

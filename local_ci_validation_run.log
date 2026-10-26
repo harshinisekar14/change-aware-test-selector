@@ -1,0 +1,24 @@
+{
+  "aggregate": {
+    "full_regression": {
+      "mean_median_wall_clock_seconds": 0.352479,
+      "mean_time_saved_percent": 0.0,
+      "mean_critical_defect_recall": 1.0,
+      "all_selected_tests_passed": true
+    },
+    "coverage_only": {
+      "mean_median_wall_clock_seconds": 0.09536,
+      "mean_time_saved_percent": 72.94,
+      "mean_critical_defect_recall": 1.0,
+      "all_selected_tests_passed": true
+    },
+    "hybrid_selector": {
+      "mean_median_wall_clock_seconds": 0.138829,
+      "mean_time_saved_percent": 60.62,
+      "mean_critical_defect_recall": 1.0,
+      "all_selected_tests_passed": true
+    }
+  },
+  "output": "results/local_ci_validation.json",
+  "case_count": 5
+}

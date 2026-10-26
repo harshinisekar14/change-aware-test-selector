@@ -1,0 +1,76 @@
+[
+  {
+    "test_id": "T01_cart_total",
+    "runtime_seconds": 12,
+    "covers": [
+      "cart.py",
+      "pricing.py"
+    ],
+    "critical": true
+  },
+  {
+    "test_id": "T02_payment_authorization",
+    "runtime_seconds": 20,
+    "covers": [
+      "payment.py",
+      "checkout.py"
+    ],
+    "critical": true
+  },
+  {
+    "test_id": "T03_flash_inventory",
+    "runtime_seconds": 18,
+    "covers": [
+      "inventory.py",
+      "flash_sale.py"
+    ],
+    "critical": true
+  },
+  {
+    "test_id": "T04_coupon_rules",
+    "runtime_seconds": 10,
+    "covers": [
+      "pricing.py",
+      "coupon.py"
+    ],
+    "critical": false
+  },
+  {
+    "test_id": "T05_order_webhook",
+    "runtime_seconds": 15,
+    "covers": [
+      "webhook.py",
+      "orders.py"
+    ],
+    "critical": true
+  },
+  {
+    "test_id": "T06_search_catalog",
+    "runtime_seconds": 8,
+    "covers": [
+      "search.py",
+      "catalog.py"
+    ],
+    "critical": false
+  },
+  {
+    "test_id": "T07_user_login",
+    "runtime_seconds": 9,
+    "covers": [
+      "auth.py",
+      "user.py"
+    ],
+    "critical": false
+  },
+  {
+    "test_id": "T08_checkout_e2e",
+    "runtime_seconds": 25,
+    "covers": [
+      "cart.py",
+      "payment.py",
+      "inventory.py",
+      "orders.py"
+    ],
+    "critical": true
+  }
+]

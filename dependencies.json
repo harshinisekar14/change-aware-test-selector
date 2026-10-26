@@ -1,0 +1,30 @@
+[
+  {
+    "source": "checkout.py",
+    "target": "payment.py"
+  },
+  {
+    "source": "checkout.py",
+    "target": "cart.py"
+  },
+  {
+    "source": "flash_sale.py",
+    "target": "inventory.py"
+  },
+  {
+    "source": "orders.py",
+    "target": "webhook.py"
+  },
+  {
+    "source": "cart.py",
+    "target": "pricing.py"
+  },
+  {
+    "source": "pricing.py",
+    "target": "coupon.py"
+  },
+  {
+    "source": "catalog.py",
+    "target": "search.py"
+  }
+]

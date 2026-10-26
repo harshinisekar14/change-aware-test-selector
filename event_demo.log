@@ -1,0 +1,45 @@
+{"input": {"event_id": "evt-1", "sequence": 1, "event_type": "test_run_started", "payload": {"run": "R1"}}, "result": {"status": "applied", "applied": ["evt-1"], "next_sequence": 2, "pending_sequences": []}}
+{"input": {"event_id": "evt-3", "sequence": 3, "event_type": "test_run_completed", "payload": {"run": "R1", "status": "passed"}}, "result": {"status": "buffered", "applied": [], "next_sequence": 2, "pending_sequences": [3]}}
+{"input": {"event_id": "evt-2", "sequence": 2, "event_type": "test_case_completed", "payload": {"test": "T01", "status": "passed"}}, "result": {"status": "applied", "applied": ["evt-2", "evt-3"], "next_sequence": 4, "pending_sequences": []}}
+{"input": {"event_id": "evt-2", "sequence": 2, "event_type": "test_case_completed", "payload": {"test": "T01", "status": "passed"}}, "result": {"status": "duplicate", "event_id": "evt-2"}}
+{"input": {"event_id": "evt-4", "sequence": 4, "event_type": "coverage_uploaded", "payload": {"files": 2}}, "result": {"status": "applied", "applied": ["evt-4"], "next_sequence": 5, "pending_sequences": []}}
+{
+  "committed_state": [
+    {
+      "event_id": "evt-1",
+      "sequence": 1,
+      "event_type": "test_run_started",
+      "payload": {
+        "run": "R1"
+      }
+    },
+    {
+      "event_id": "evt-2",
+      "sequence": 2,
+      "event_type": "test_case_completed",
+      "payload": {
+        "test": "T01",
+        "status": "passed"
+      }
+    },
+    {
+      "event_id": "evt-3",
+      "sequence": 3,
+      "event_type": "test_run_completed",
+      "payload": {
+        "run": "R1",
+        "status": "passed"
+      }
+    },
+    {
+      "event_id": "evt-4",
+      "sequence": 4,
+      "event_type": "coverage_uploaded",
+      "payload": {
+        "files": 2
+      }
+    }
+  ],
+  "pending": {},
+  "rejected": []
+}

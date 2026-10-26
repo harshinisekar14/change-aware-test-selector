@@ -1,0 +1,42 @@
+[
+  {
+    "case_id": "E1",
+    "description": "Flash-sale inventory logic changed",
+    "changed_files": [
+      "flash_sale.py",
+      "inventory.py"
+    ]
+  },
+  {
+    "case_id": "E2",
+    "description": "Checkout and payment logic changed",
+    "changed_files": [
+      "checkout.py",
+      "payment.py"
+    ]
+  },
+  {
+    "case_id": "E3",
+    "description": "Pricing and coupon rules changed",
+    "changed_files": [
+      "pricing.py",
+      "coupon.py"
+    ]
+  },
+  {
+    "case_id": "E4",
+    "description": "Order webhook processing changed",
+    "changed_files": [
+      "webhook.py",
+      "orders.py"
+    ]
+  },
+  {
+    "case_id": "E5",
+    "description": "Search catalogue display changed",
+    "changed_files": [
+      "search.py",
+      "catalog.py"
+    ]
+  }
+]

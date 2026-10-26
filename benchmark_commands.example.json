@@ -1,0 +1,41 @@
+{
+  "full_regression": [
+    "python",
+    "-m",
+    "selector.demo_ci_runner",
+    "--strategy",
+    "full_regression",
+    "--diff",
+    "data/sample_diff.json",
+    "--data",
+    "data",
+    "--runtime-scale",
+    "0.003"
+  ],
+  "coverage_only": [
+    "python",
+    "-m",
+    "selector.demo_ci_runner",
+    "--strategy",
+    "coverage_only",
+    "--diff",
+    "data/sample_diff.json",
+    "--data",
+    "data",
+    "--runtime-scale",
+    "0.003"
+  ],
+  "hybrid_selector": [
+    "python",
+    "-m",
+    "selector.demo_ci_runner",
+    "--strategy",
+    "hybrid_selector",
+    "--diff",
+    "data/sample_diff.json",
+    "--data",
+    "data",
+    "--runtime-scale",
+    "0.003"
+  ]
+}

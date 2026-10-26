@@ -1,0 +1,100 @@
+{
+  "selected_tests": [
+    "T08_checkout_e2e",
+    "T03_flash_inventory"
+  ],
+  "scores": [
+    {
+      "test_id": "T08_checkout_e2e",
+      "runtime_seconds": 25.0,
+      "direct_coverage": true,
+      "dependency_relevant": true,
+      "historical_failure_rate": 0.14,
+      "critical_defect_links": 3,
+      "defect_links": 4,
+      "score": 0.871,
+      "critical": true
+    },
+    {
+      "test_id": "T03_flash_inventory",
+      "runtime_seconds": 18.0,
+      "direct_coverage": true,
+      "dependency_relevant": true,
+      "historical_failure_rate": 0.15,
+      "critical_defect_links": 1,
+      "defect_links": 1,
+      "score": 0.8325,
+      "critical": true
+    },
+    {
+      "test_id": "T02_payment_authorization",
+      "runtime_seconds": 20.0,
+      "direct_coverage": false,
+      "dependency_relevant": false,
+      "historical_failure_rate": 0.12,
+      "critical_defect_links": 1,
+      "defect_links": 1,
+      "score": 0.178,
+      "critical": true
+    },
+    {
+      "test_id": "T01_cart_total",
+      "runtime_seconds": 12.0,
+      "direct_coverage": false,
+      "dependency_relevant": false,
+      "historical_failure_rate": 0.08,
+      "critical_defect_links": 1,
+      "defect_links": 1,
+      "score": 0.172,
+      "critical": true
+    },
+    {
+      "test_id": "T04_coupon_rules",
+      "runtime_seconds": 10.0,
+      "direct_coverage": false,
+      "dependency_relevant": false,
+      "historical_failure_rate": 0.06,
+      "critical_defect_links": 1,
+      "defect_links": 1,
+      "score": 0.169,
+      "critical": false
+    },
+    {
+      "test_id": "T05_order_webhook",
+      "runtime_seconds": 15.0,
+      "direct_coverage": false,
+      "dependency_relevant": false,
+      "historical_failure_rate": 0.1,
+      "critical_defect_links": 0,
+      "defect_links": 1,
+      "score": 0.045,
+      "critical": true
+    },
+    {
+      "test_id": "T06_search_catalog",
+      "runtime_seconds": 8.0,
+      "direct_coverage": false,
+      "dependency_relevant": false,
+      "historical_failure_rate": 0.02,
+      "critical_defect_links": 0,
+      "defect_links": 1,
+      "score": 0.033,
+      "critical": false
+    },
+    {
+      "test_id": "T07_user_login",
+      "runtime_seconds": 9.0,
+      "direct_coverage": false,
+      "dependency_relevant": false,
+      "historical_failure_rate": 0.03,
+      "critical_defect_links": 0,
+      "defect_links": 0,
+      "score": 0.0045,
+      "critical": false
+    }
+  ],
+  "total_tests": 8,
+  "selected_count": 2,
+  "estimated_seconds": 43.0,
+  "reason": "hybrid weighted ranking plus direct-coverage and critical-defect safety floors"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "test_id": "T01_cart_total",
+    "runs": 100,
+    "failures": 8
+  },
+  {
+    "test_id": "T02_payment_authorization",
+    "runs": 100,
+    "failures": 12
+  },
+  {
+    "test_id": "T03_flash_inventory",
+    "runs": 100,
+    "failures": 15
+  },
+  {
+    "test_id": "T04_coupon_rules",
+    "runs": 100,
+    "failures": 6
+  },
+  {
+    "test_id": "T05_order_webhook",
+    "runs": 100,
+    "failures": 10
+  },
+  {
+    "test_id": "T06_search_catalog",
+    "runs": 100,
+    "failures": 2
+  },
+  {
+    "test_id": "T07_user_login",
+    "runs": 100,
+    "failures": 3
+  },
+  {
+    "test_id": "T08_checkout_e2e",
+    "runs": 100,
+    "failures": 14
+  }
+]

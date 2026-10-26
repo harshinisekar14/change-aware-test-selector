@@ -1,0 +1,21 @@
+{
+  "full_regression": {
+    "mean_selected_tests": 8.0,
+    "mean_estimated_seconds": 117.0,
+    "mean_time_saved_percent": 0.0,
+    "mean_critical_detection_recall": 1.0
+  },
+  "coverage_only": {
+    "mean_selected_tests": 1.8,
+    "mean_estimated_seconds": 31.6,
+    "mean_time_saved_percent": 72.99,
+    "mean_critical_detection_recall": 1.0
+  },
+  "hybrid_selector": {
+    "mean_selected_tests": 2.6,
+    "mean_estimated_seconds": 46.0,
+    "mean_time_saved_percent": 60.68,
+    "mean_critical_detection_recall": 1.0
+  }
+}
+Saved: results/experiment_results.json

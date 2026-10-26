@@ -1,0 +1,16 @@
+{
+  "selector/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "selector/ci_benchmark.py": "fb0d66b763c382a7f79a9007ee5728bcc8e7f7f574ad3dd462f924e55e21715e",
+  "selector/cli.py": "60844aa6569b65fa064c1110d940314e24c450b989149f188f73f47fbea75d4f",
+  "selector/demo_ci_runner.py": "3c9a488e5763d69afc377f631ec569549cbb8e723c556d789e18c3298f1bf6b1",
+  "selector/durable_events.py": "80cf375fb7b2eafe6fa983588256c046adbf08a958295c97f841f047e3c3e7ac",
+  "selector/events.py": "9c406d9483fd60d4ec4fd44acd2b1a1c8dcbe811fb3fa62ce78da9f32a73e46e",
+  "selector/experiment.py": "51525efda265e0e4001773bc4abd4389297853713c634de816120e4b6014ad37",
+  "selector/git_diff.py": "c77e8c2d83b2d03533c9a0294288c2ed25e0a3a2826fdbbe7f106f6d90c1df8b",
+  "selector/local_ci_validation.py": "9e6d54f0f51f2a7ba60f4a4ebcda41f23dbac3d6ccd17c4312dd6e6e9193b006",
+  "selector/selector.py": "7b761af85e7c2433a7d2221890cd2596939bb2667f4caa5cb095e22a77678888",
+  "selector/staging_validation.py": "bd7f220915d5d41a69017ee9151182a22d662f0cd1f2f8208f9a8c6f781436ec",
+  "tests/test_durable_events.py": "80793bef4da40435d704d9acedbd109fc830d1d11664b5c9dfb7571874e9e15e",
+  "tests/test_events.py": "69613055932df32d826e9fb65f1f8a12392075deedb85dbf180fb54d5c3d35a8",
+  "tests/test_selector.py": "ce78baf7dfd90223fde727e3f2a0f5d4af370384d4184d46c0a974bcf3874446"
+}

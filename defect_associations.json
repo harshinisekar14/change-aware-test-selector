@@ -1,0 +1,62 @@
+[
+  {
+    "defect_id": "D-101",
+    "severity": "critical",
+    "affected_files": [
+      "pricing.py",
+      "cart.py"
+    ],
+    "test_ids": [
+      "T01_cart_total",
+      "T04_coupon_rules",
+      "T08_checkout_e2e"
+    ]
+  },
+  {
+    "defect_id": "D-102",
+    "severity": "critical",
+    "affected_files": [
+      "payment.py",
+      "checkout.py"
+    ],
+    "test_ids": [
+      "T02_payment_authorization",
+      "T08_checkout_e2e"
+    ]
+  },
+  {
+    "defect_id": "D-103",
+    "severity": "critical",
+    "affected_files": [
+      "inventory.py",
+      "flash_sale.py"
+    ],
+    "test_ids": [
+      "T03_flash_inventory",
+      "T08_checkout_e2e"
+    ]
+  },
+  {
+    "defect_id": "D-104",
+    "severity": "high",
+    "affected_files": [
+      "webhook.py",
+      "orders.py"
+    ],
+    "test_ids": [
+      "T05_order_webhook",
+      "T08_checkout_e2e"
+    ]
+  },
+  {
+    "defect_id": "D-105",
+    "severity": "medium",
+    "affected_files": [
+      "search.py",
+      "catalog.py"
+    ],
+    "test_ids": [
+      "T06_search_catalog"
+    ]
+  }
+]

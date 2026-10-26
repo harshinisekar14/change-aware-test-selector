@@ -1,0 +1,52 @@
+{
+  "scope": "local staging-style simulation; not external production validation",
+  "checks_passed": 9,
+  "checks_total": 9,
+  "checks": [
+    {
+      "check": "unknown mapping full-suite fallback",
+      "status": "PASS",
+      "detail": "safety fallback: changed files have no mapped coverage; run full regression"
+    },
+    {
+      "check": "coverage-only empty-match fallback",
+      "status": "PASS",
+      "detail": "safety fallback: no mapped coverage; run full regression"
+    },
+    {
+      "check": "out-of-order event buffered",
+      "status": "PASS",
+      "detail": "sequence 2 waits for sequence 1"
+    },
+    {
+      "check": "pending event survives restart",
+      "status": "PASS",
+      "detail": "reopened processor recovered sequence 2"
+    },
+    {
+      "check": "ordered recovery commits 1 then 2",
+      "status": "PASS",
+      "detail": "committed order preserved"
+    },
+    {
+      "check": "duplicate event idempotency",
+      "status": "PASS",
+      "detail": "committed_count=2"
+    },
+    {
+      "check": "conflicting sequence rejected",
+      "status": "PASS",
+      "detail": "{'status': 'conflict', 'sequence': 5, 'kept_event_id': 'stage-e5a'}"
+    },
+    {
+      "check": "malformed envelope audited",
+      "status": "PASS",
+      "detail": "{'status': 'rejected', 'reason': 'invalid envelope'}"
+    },
+    {
+      "check": "SQLite backup restore retains committed state",
+      "status": "PASS",
+      "detail": "restored_committed=3"
+    }
+  ]
+}

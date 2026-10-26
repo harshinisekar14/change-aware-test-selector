@@ -1,0 +1,1 @@
+strategy,commit_sha,runner_image,runner_cpu_memory,cache_policy,run_number,exit_code,duration_seconds,selected_test_count,critical_defects_in_validation_set,critical_defects_detected,critical_defect_recall,ci_run_url_or_log_path,notes

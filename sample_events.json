@@ -1,0 +1,45 @@
+[
+  {
+    "event_id": "evt-1",
+    "sequence": 1,
+    "event_type": "test_run_started",
+    "payload": {
+      "run": "R1"
+    }
+  },
+  {
+    "event_id": "evt-3",
+    "sequence": 3,
+    "event_type": "test_run_completed",
+    "payload": {
+      "run": "R1",
+      "status": "passed"
+    }
+  },
+  {
+    "event_id": "evt-2",
+    "sequence": 2,
+    "event_type": "test_case_completed",
+    "payload": {
+      "test": "T01",
+      "status": "passed"
+    }
+  },
+  {
+    "event_id": "evt-2",
+    "sequence": 2,
+    "event_type": "test_case_completed",
+    "payload": {
+      "test": "T01",
+      "status": "passed"
+    }
+  },
+  {
+    "event_id": "evt-4",
+    "sequence": 4,
+    "event_type": "coverage_uploaded",
+    "payload": {
+      "files": 2
+    }
+  }
+]
